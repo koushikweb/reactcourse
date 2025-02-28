@@ -1,11 +1,14 @@
 import "./App.css";
-import Dashboard from "./componets/Dashboard";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter } from "react-router";
+import Layout from "./componets/Layout";
 
 function App() {
-  const fname = "User Listing";
   return (
     <div className="App">
-      <Dashboard list={fname} />
+      <BrowserRouter>
+        <Layout />
+      </BrowserRouter>
     </div>
   );
 }

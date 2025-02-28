@@ -20,8 +20,8 @@ const Dashboard = ({ list }) => {
     fetchUser();
   }, [error]);
   return (
-    <div>
-      <h1>{`Showing ${list}`} </h1>
+    <div className="Container">
+      <h1>{`User List`} </h1>
       {console.log(`userdata arr ${userData}`)}
       <table>
         <thead>
