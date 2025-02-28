@@ -11,11 +11,11 @@ const Mainmenu = () => {
           <Navbar.Brand as={Link} to="/dashboard">
             Dashboard
           </Navbar.Brand>
-          <Nav Link as={Link} to="/contact">
-            Contact
-          </Nav>
           <Nav Link as={Link} to="/about">
             About
+          </Nav>
+          <Nav Link as={Link} to="/contact">
+            Contact
           </Nav>
         </Container>
       </Navbar>

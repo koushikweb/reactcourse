@@ -1,14 +1,17 @@
 import React from "react";
 import Header from "./Header";
 import Mainmenu from "../Mainmenu";
+import { Container } from "react-bootstrap";
 
 const Layout = ({ children }) => {
   return (
     <div>
       <div>
         <div>
-          <Header />
-          <Mainmenu />
+          <Container>
+            <Header />
+            <Mainmenu />
+          </Container>
         </div>
       </div>
     </div>

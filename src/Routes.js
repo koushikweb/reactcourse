@@ -8,9 +8,9 @@ const Routers = () => {
   return (
     <div>
       <Routes>
-        <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/dashboard" Component={Dashboard} />
+        <Route path="/about" Component={About} />
+        <Route path="/contact" Component={Contact} />
       </Routes>
     </div>
   );
